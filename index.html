@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Catalog</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+
+</head>
+
+<body>
+    <div class="tm-page-wrap mx-auto">
+        <div class="position-relative">
+            <div class="position-absolute tm-site-header">
+                <div class="container-fluid position-relative">
+                    <div class="row">
+                        <div class="col-7 col-md-4">
+                            <a href="index.html" class="tm-bg-black text-center tm-logo-container">
+                                <!--<i class="fas fa-video tm-site-logo mb-3"></i>-->
+                                <i class="fas fa-headphones tm-site-logo mb-3"></i>
+                                <!--<i class="fas fa-headphones-alt tm-site-logo mb-3"></i>-->
+                                <h1 class="tm-site-name">Dj Bunny</h1>
+                            </a>
+                        </div>
+                        <!--<div class="col-7 col-md-4">-->
+                            <!--<a href="index.html" class="tm-bg-black text-center tm-logo-container">-->
+                                <!--<img src="path/to/your/logo.png" class="tm-site-logo mb-3" style="max-width: 100%; height: auto;">-->
+                                <!--<h1 class="tm-site-name">Dj Bunny</h1>-->
+                            <!--</a>-->
+                        <!--</div>-->
+
+                        <div class="col-5 col-md-8 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                            data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                            aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item active">
+                                                <a class="nav-link tm-nav-link" href="#">Videos <span class="sr-only">(current)</span></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="about.html">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-welcome-container text-center text-white">
+                <div class="tm-welcome-container-inner">
+                    <p class="tm-welcome-text mb-1 text-white">The DownTown DJ House.</p>
+                    <p class="tm-welcome-text mb-5 text-white">Bunny</p>
+                    <a href="#content" class="btn tm-btn-animate tm-btn-cta tm-icon-down">
+                        <span>Discover</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="tm-video-container">
+                <video autoplay muted loop id="tm-video">
+                    <!-- <source src="video/sunset-timelapse-video.mp4" type="video/mp4"> -->
+                        <source src="video/Control.mp4" type="video/mp4">
+                </video>    
+            </div>
+            
+            <i id="tm-video-control-button" class="fas fa-pause"></i>
+        </div>
+
+        <div class="container-fluid">
+            <div id="content" class="mx-auto tm-content-container">
+                <main>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="tm-page-title mb-4">Our Video Catalog</h2>
+                            <div class="tm-categories-container mb-5">
+                                <h3 class="tm-text-primary tm-categories-text">Categories:</h3>
+                                <ul class="nav tm-category-list">
+                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link active">All</a></li>
+                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link">Events</a></li>
+                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link">Marriages</a></li>
+                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link">Party</a></li>
+                                    <li class="nav-item tm-category-item"><a href="#" class="nav-link tm-category-link">Featured</a></li>
+                                </ul>
+                            </div>        
+                        </div>
+                    </div>
+                    
+                    <div class="row tm-catalog-item-list">
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Marriages</h3>
+                                <p class="tm-catalog-item-text">
+                                    "Make your wedding day unforgettable with <span class="tm-text-secondary"> HANVIKA EVENTS.</span> Our expert DJs will create the perfect ambiance with personalized music and stunning light displays. From the first dance to the last song, we ensure your celebration is magical."
+   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/about2.png" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page2.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title"> Holi</h3>
+                                <p class="tm-catalog-item-text">
+                                    "Celebrate Holi with color, music, and joy! <span class="tm-text-secondary"> HANVIKA EVENTS.</span> brings the energy with vibrant beats and exciting mixes to make your festival unforgettable. Let the music set the mood for the most colorful event of the year!"
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page3.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Birthday</h3>
+                                <p class="tm-catalog-item-text">"Turn your birthday into an extraordinary celebration with  <span class="tm-text-secondary"> HANVIKA EVENTS!</span>  Our DJs will spin the perfect mix of tunes to keep the party going all night long. We specialize in creating fun and memorable moments for all ages."</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Corporate</h3>
+                                <p class="tm-catalog-item-text">"Bring your corporate events to life with <span class="tm-text-secondary"> HANVIKA EVENTS.</span> We provide professional DJ services that perfectly match your company’s vibe, creating an enjoyable atmosphere for networking and team building. Let’s make your next corporate gathering a success!"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/about2.png" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">School Event</h3>
+                                <p class="tm-catalog-item-text">"Make your school event a hit with <span class="tm-text-secondary"> HANVIKA EVENTS.</span> From music to lighting, we provide the best DJ services for proms, dances, and year-end celebrations. Our team ensures everyone has a blast on the dance floor!"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">College Farewell</h3>
+                                <p class="tm-catalog-item-text">"Say goodbye in style with a college farewell party by <span class="tm-text-secondary"> HANVIKA EVENTS.</span> Our DJs curate the best mix of tunes to celebrate the memories and create an epic send-off. Make your last day at college a night to remember!"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>    
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Haldi</h3>
+                                <p class="tm-catalog-item-text">"Celebrate your Haldi ceremony with joy and rhythm, as <span class="tm-text-secondary"> HANVIKA EVENTS</span> brings the perfect music to match the vibrant traditions. Our DJ services make this pre-wedding celebration even more special with tunes that keep the energy flowing."</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/about2.png" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title">Private Parties</h3>
+                                <p class="tm-catalog-item-text">"Throw the ultimate private party with <span class="tm-text-secondary"> HANVIKA EVENTS.</span> Our DJs offer personalized playlists to suit your taste and create an unforgettable atmosphere. Whether it's an intimate gathering or a larger celebration, we’ve got the perfect vibe!"</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
+                            <div class="position-relative tm-thumbnail-container">
+                                <img src="img/IMG_1.JPG" alt="Image" class="img-fluid tm-catalog-item-img">    
+                                <a href="video-page.html" class="position-absolute tm-img-overlay">
+                                    <i class="fas fa-play tm-overlay-icon"></i>
+                                </a>
+                            </div>                            
+                            <div class="p-4 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary mb-3 tm-catalog-item-title"> Anniversary Parties</h3>
+                                <p class="tm-catalog-item-text">"Celebrate love and togetherness with an anniversary party by <span class="tm-text-secondary"> HANVIKA EVENTS.</span> We specialize in creating romantic, yet lively, atmospheres with personalized music for couples. Let us help you relive your special moments with the perfect soundtrack!"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Catalog Paging Buttons -->
+                    <!--<div>
+                        <ul class="nav tm-paging-links">
+                            <li class="nav-item active"><a href="#" class="nav-link tm-paging-link">1</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link tm-paging-link">2</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link tm-paging-link">3</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link tm-paging-link">4</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link tm-paging-link">></a></li>
+                        </ul>
+                    </div>-->
+                </main>
+
+                <!-- Subscribe form and footer links -->
+                <div class="row mt-5 pt-3">
+                    <div class="col-xl-6 col-lg-12 mb-4">
+                        <div class="tm-bg-gray p-5 h-100">
+                            <h3 class="tm-text-primary mb-3">Do you want to get our latest updates?</h3>
+                            <p class="mb-5">Please subscribe our instagram for upcoming new videos and latest information about our
+                                work. Thank you.</p>
+                            <form action="" method="GET" class="tm-subscribe-form">
+                                <input type="text" name="email" placeholder="Your Email..." required>
+                                <button type="submit" class="btn rounded-0 btn-primary tm-btn-small">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="p-5 tm-bg-gray">
+                            <h3 class="tm-text-primary mb-4">Events</h3>
+                            <ul class="list-unstyled tm-footer-links">
+                                <li><a href="#">Wedding DJ Services</a></li>
+                                <li><a href="#">Corporate Events</a></li>
+                                <li><a href="#">Private Parties</a></li>
+                                <li><a href="#">Birthday Parties</a></li>
+                                <li><a href="#">Special Themes</a></li>
+                            </ul>    
+                        </div>                        
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="p-5 tm-bg-gray h-100">
+                            <h3 class="tm-text-primary mb-4">Our Pages</h3>
+                            <ul class="list-unstyled tm-footer-links">
+                                <li><a href="video-page.html">Our Videos</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </div> <!-- row -->
+
+                <footer class="row pt-5">
+                    <div class="col-12">
+                        <p class="text-right">Copyright 2024 
+                        
+                        - Designed by <a href="" rel="nofollow" target="_parent">Cierto Digital Solutions</a></p>
+                    </div>
+                </footer>
+            </div> <!-- tm-content-container -->
+        </div>
+
+    </div> <!-- .tm-page-wrap -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function setVideoSize() {
+            const vidWidth = 1920;
+            const vidHeight = 1080;
+            let windowWidth = window.innerWidth;
+            let newVidWidth = windowWidth;
+            let newVidHeight = windowWidth * vidHeight / vidWidth;
+            let marginLeft = 0;
+            let marginTop = 0;
+
+            if (newVidHeight < 500) {
+                newVidHeight = 500;
+                newVidWidth = newVidHeight * vidWidth / vidHeight;
+            }
+
+            if(newVidWidth > windowWidth) {
+                marginLeft = -((newVidWidth - windowWidth) / 2);
+            }
+
+            if(newVidHeight > 720) {
+                marginTop = -((newVidHeight - $('#tm-video-container').height()) / 2);
+            }
+
+            const tmVideo = $('#tm-video');
+
+            tmVideo.css('width', newVidWidth);
+            tmVideo.css('height', newVidHeight);
+            tmVideo.css('margin-left', marginLeft);
+            tmVideo.css('margin-top', marginTop);
+        }
+
+        $(document).ready(function () {
+            /************** Video background *********/
+
+            setVideoSize();
+
+            // Set video background size based on window size
+            let timeout;
+            window.onresize = function () {
+                clearTimeout(timeout);
+                timeout = setTimeout(setVideoSize, 100);
+            };
+
+            // Play/Pause button for video background      
+            const btn = $("#tm-video-control-button");
+
+            btn.on("click", function (e) {
+                const video = document.getElementById("tm-video");
+                $(this).removeClass();
+
+                if (video.paused) {
+                    video.play();
+                    $(this).addClass("fas fa-pause");
+                } else {
+                    video.pause();
+                    $(this).addClass("fas fa-play");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
